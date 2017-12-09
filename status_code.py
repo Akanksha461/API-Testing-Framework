@@ -33,13 +33,13 @@ import json
 
 #  }
 
-response = requests.get("http://lottery1.sia.co.in/#/home")
+response = requests.get("https://admin.jeruk-emas.org/login")
 
 
 # Print the status code of the response.
 print(response.status_code)
 
-if response.status_code ==100:
+if response.status_code ==200:
     print("server is working fine")
 
 
