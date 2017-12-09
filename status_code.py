@@ -38,7 +38,7 @@ response = requests.get("https://admin.jeruk-emas.org/login")
 # Check status code for lottery admin.
 print(response.status_code)
 
-if response.status_code ==100:
+if response.status_code ==200:
     print("server is working fine")
 
 
@@ -51,7 +51,7 @@ response3 = requests.get("https://cmd36.com/")
 
 print(response3.status_code)
 
-if response3.status_code ==100:
+if response3.status_code ==200:
     print("server is working fine")
 
 
@@ -63,7 +63,7 @@ response4 = requests.get("https://csovegas.com/")
 
 print(response4.status_code)
 
-if response4.status_code ==100:
+if response4.status_code ==200:
     print("server is working fine")
 
 
@@ -76,7 +76,7 @@ response5 = requests.get("https://ibet36.net/")
 
 print(response5.status_code)
 
-if response5.status_code ==100:
+if response5.status_code ==200:
     print("server is working fine")
 
 
@@ -88,7 +88,7 @@ response6 = requests.get("https://ibet36.com")
 
 print(response6.status_code)
 
-if response6.status_code ==100:
+if response6.status_code ==200:
     print("server is working fine")
 
 
