@@ -44,7 +44,7 @@ if response.status_code ==100:
 
 
 else:
-	response2=requests.get("http://www.kit19.com/ComposeSMS.aspx?username=designco716292&password=4855&sender=DSGNCO&to=8591771290&message=Their%20is%20some%20technical%20issue%20in%20lottery%20admin%20pannel%20please%20check%20it%20immediately&priority=1&dnd=1&unicode=0")
+	response2=requests.get("http://www.kit19.com/ComposeSMS.aspx?username=designco716292&password=4855&sender=DSGNCO&to=9532991671&message=Their%20is%20some%20technical%20issue%20in%20lottery%20admin%20pannel%20please%20check%20it%20immediately&priority=1&dnd=1&unicode=0")
     # response1 =requests.get("http://kit19.com/",data=json.dumps(body), headers=headers)
 
     # print(response1.status_code)
