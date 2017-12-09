@@ -39,12 +39,12 @@ response = requests.get("https://admin.jeruk-emas.org/login")
 # Print the status code of the response.
 print(response.status_code)
 
-if response.status_code ==200:
+if response.status_code ==100:
     print("server is working fine")
 
 
 else:
-	response2=requests.get("http://www.kit19.com/ComposeSMS.aspx?username=designco716292&password=4855&sender=DCOMBD&to=8591771290&message=Message&priority=1&dnd=1&unicode=0")
+	response2=requests.get("http://www.kit19.com/ComposeSMS.aspx?username=designco716292&password=4855&sender=DSGNCO&to=8591771290&message=Their is some technical issue in admin pannel, please check it immediately&priority=1&dnd=1&unicode=0")
     # response1 =requests.get("http://kit19.com/",data=json.dumps(body), headers=headers)
 
     # print(response1.status_code)
