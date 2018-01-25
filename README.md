@@ -10,14 +10,14 @@
    * Verifying the Sequence of API calls and check if the API's produce useful results from successive calls.
    * Authrization and authenticaton 
    
-  ## Environment set 
+  ## Set Environment 
    The first part of API testing involves setting up a testing environment, with the required set of parameters around the API.Once you’ve set up your API testing environment, make an API call right away to make sure nothing is broken before you go forward to start your more thorough testing.I have used [postman](https://www.getpostman.com/apps) for api testing, [here](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html) is the link for step by step instruction for an api call using postman.
    
   ## Automation testing of Rest api 
    One of Postman's most powerful features is its ability to run automated tests on your requests. To get started quickly here is the postman's [tutorial](http://blog.getpostman.com/2017/07/28/api-testing-tips-from-a-postman-professional/).Using this tutorial user will able to write automated test scrpit for api.
    
    ### Example
-   Below is the sample of basic my automation test scripts for an api to check response time, status code, header and body, for advance asserstions and checks please check the [collection file](https://github.com/Akanksha461/API-Testing-Framework/blob/master/Totojitu-New1.postman_collection) and [environment file](https://github.com/Akanksha461/API-Testing-Framework/blob/master/Totojitu.postman_environment) of my project.You can add many more asserstions,I have used chai asserstion and code is wriiten in javascript.
+   Below is the sample of my basic automation test scripts for an api to check response time, status code, header and body, for advance asserstions please check the [collection file](https://github.com/Akanksha461/API-Testing-Framework/blob/master/Totojitu-New1.postman_collection) and [environment file](https://github.com/Akanksha461/API-Testing-Framework/blob/master/Totojitu.postman_environment) of my project.You can add many more asserstions,I have used chai asserstion along with javascript.
    
    ```
  eval(globals.postmanBDD);
