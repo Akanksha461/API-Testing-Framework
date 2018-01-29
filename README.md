@@ -17,13 +17,13 @@
    One of Postman's most powerful features is its ability to run automated tests on your requests. To get started quickly here is the postman's [tutorial](http://blog.getpostman.com/2017/07/28/api-testing-tips-from-a-postman-professional/).Using this tutorial user will able to write automated test scrpit for api.
    
    ### Example
-   Below is the sample of my basic automation test scripts for an api to check response time, status code, header and body, for advance asserstions please check the [collection file](https://github.com/Akanksha461/API-Testing-Framework/blob/master/Totojitu-New1.postman_collection) and [environment file](https://github.com/Akanksha461/API-Testing-Framework/blob/master/Totojitu.postman_environment) of my project.You can add many more asserstions,I have used chai asserstion along with javascript.
+   Below is the sample of my basic automation test scripts for an api to check response time, status code, header and body, for advance assertion please check the [collection file](https://github.com/Akanksha461/API-Testing-Framework/blob/master/Totojitu-New1.postman_collection) and [environment file](https://github.com/Akanksha461/API-Testing-Framework/blob/master/Totojitu.postman_environment) of my project.You can add many more assertion,I have used chai assertion along with javascript.
    
    ```
  eval(globals.postmanBDD);
 
 //response assertion
-describe('assertions for response',()=>{
+describe('assertion for response',()=>{
     it('checks response code',()=>{
       response.should.have.status(400); 
     });
